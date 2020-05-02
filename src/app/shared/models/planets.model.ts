@@ -1,3 +1,6 @@
+import { Film } from './film.model';
+import { People } from './people.model';
+
 export class Planets{
     constructor(
         public name: string,
@@ -9,8 +12,8 @@ export class Planets{
         public terrain: string,
         public surface_water: string,
         public population: string,
-        public residents: Peoples[], 
-        public films: Films[] ){}
+        public residents: People[], 
+        public films: Film[] ){}
 
 
 }
