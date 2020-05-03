@@ -3,7 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PlanetsModule } from './planets/planets.module'
+import { PlanetsModule } from './planets/planets.module';
+
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -12,7 +14,8 @@ import { PlanetsModule } from './planets/planets.module'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PlanetsModule
+    PlanetsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
