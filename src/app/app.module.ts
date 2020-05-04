@@ -6,16 +6,22 @@ import { AppComponent } from './app.component';
 import { PlanetsModule } from './planets/planets.module';
 
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './templates/header/header.component';
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PlanetsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatToolbarModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
