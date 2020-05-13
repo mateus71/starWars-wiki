@@ -13,6 +13,9 @@ import { PlanetsModule } from './planets/planets.module';
 import { HeaderComponent } from './templates/header/header.component';
 import { SideNavComponent } from './templates/side-nav/side-nav.component';
 import { HomeComponent } from './templates/home/home.component';
+import { PlanetsComponent } from './views/planets/planets.component';
+import { PeopleComponent } from './views/people/people.component';
+import { FilmComponent } from './views/film/film.component';
 
 
 
@@ -21,7 +24,10 @@ import { HomeComponent } from './templates/home/home.component';
     AppComponent,
     HeaderComponent,
     SideNavComponent,
-    HomeComponent
+    HomeComponent,
+    PlanetsComponent,
+    PeopleComponent,
+    FilmComponent
   ],
   imports: [
     BrowserModule,
